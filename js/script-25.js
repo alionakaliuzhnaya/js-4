@@ -81,3 +81,18 @@ const getFriends = (users) => {
   );
 };
 // Change code above this line
+
+//hm 26
+
+// Change code below this line
+const getActiveUsers = (users) => {
+  return users.filter((user) => user.isActive);
+};
+// Change code above this line
+
+// Change code below this line
+const getInactiveUsers = (users) => {
+  return users.filter((user) => !user.isActive);
+  //  return users.filter((user) => user.isActive===false);
+};
+// Change code above this line
